@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Play Game</title>
+</head>
+<body>
+	<h1>Play Game</h1>
+	<p id="playerName">Player Name:</p>
+
+	<form id="carromForm">
+		<label for="action">Choose an action:</label> <select id="action"
+			name="action">
+			<option value="1">Pocket White Coin</option>
+			<option value="2">Pocket Black Coin</option>
+			<option value="3" id="redCoinOption">Pocket Red Coin</option>
+			<option value="4">Give Strike to Opponent</option>
+			<option value="5">Pocket Striker</option>
+		</select> <br> <input type="submit" value="Submit">
+	</form>
+	
+	<script src="PlayGame.js"></script>
+
+	<br>
+	<form action="Dashboard.html" method="get">
+		<input type="submit" value="Dashboard">
+	</form>
+	
+	<br>
+	<form action="EndGame.html" method="get">
+		<input type="submit" value="End Game">
+	</form>
+
+</body>
+</html>
